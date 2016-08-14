@@ -1,0 +1,68 @@
+.clear10 {
+    clear: both;
+    height: 100px;
+}
+.clear5 {
+    clear: both;
+    height: 50px;
+}
+.clear {
+    clear: both;   
+}
+.dividir {
+    border-bottom: 1px solid #989898;
+    clear: both;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+.praia h5 #ruim {
+    color: #ff0000;
+    font-weight: bold;
+}
+.praia h5 #bom {
+    color: #04da28;
+    font-weight: bold;
+}
+#maior {    
+    background: #ff0000;
+}
+#menor {    
+    background: blue;
+}
+#maior,
+#menor {
+    float: left;
+    width: 20px;
+    position: absolute;
+    bottom: 0;
+}
+.grafico {
+    float: left;
+    min-height: 400px;
+    width: 72px;
+    position: absolute;
+}
+span#menor {
+    right: 30px;
+}
+input[type="submit"] {
+    background: #585858;
+    color: #f0f0f0;
+    border: 0;
+    width: 50px;
+    height: 35px;
+}
+input {
+    height: 35px;
+    padding-left: 5px;
+}
+.tempo h1 {
+    text-transform: uppercase;
+    color: #373737;
+    font-size: 25px;
+}
+.item {
+    border: 1px solid #585858;
+    padding: 10px;
+    text-align: center;
+}
